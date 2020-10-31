@@ -1,0 +1,230 @@
+/*
+Theme Name: Uhuru
+Author: Uhuru
+Description: uhuru（ウフル）とはスワヒリ語で「自由」を意味する言葉です。
+Version: 1.0
+*/
+
+.cms-is-adminBarShowing #gheader>h1 {
+    top: 62px;
+}
+
+.cms-is-adminBarShowing #gheader .menu_btn {
+    top: 32px;
+}
+
+.cms-is-adminBarShowing #gheader .pclang {
+    top: 47px;
+}
+
+.cms-pg-top.cms-is-adminBarShowing {
+    margin-top: 0 !important;
+}
+
+#news .entry_body strong,
+#live .entry_body strong {
+    font-weight: bold;
+}
+
+#news .entry_body p,
+#live .entry_body p {
+    box-sizing: border-box;
+}
+
+#news .entry_body ul,
+#live .entry_body ul,
+#news .entry_body ol,
+#live .entry_body ol {
+    width: 100%;
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    line-height: 2.14;
+    text-align: justify;
+    margin-left: 1.3em;
+}
+
+#news .entry_body ul,
+#live .entry_body ul {
+    list-style: disc;
+}
+
+#news .entry_body ol,
+#live .entry_body ol {
+    list-style: decimal;
+}
+
+#news .entry_body hr,
+#live .entry_body hr {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+}
+
+#news .entry_body td,
+#live .entry_body td {
+    border-right: 1px solid #CCC;
+}
+
+#news .entry_body td:last-child,
+#live .entry_body td:last-child {
+    border-right: 0;
+}
+
+#service.entry .news_item {
+    vertical-align: top;
+}
+
+/* ly = layout */
+.cms_ly_pagePath {
+    padding: 40px 0 40px 157px;
+    font-size: 11px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.cms_ly_pagePath li {
+    display: inline-block;
+}
+
+.cms_ly_pagePath li a:hover {
+    text-decoration: underline;
+}
+
+.cms_ly_section {
+    width: 100%;
+    line-height: 1;
+    min-width: 1100px;
+    text-align: center;
+}
+
+.cms_ly_section .top_title {
+    width: 100%;
+    position: relative;
+}
+
+.cms_ly_section .top_title h1 {
+    margin: 0 auto;
+    padding: 100px 0 40px;
+    font-size: 50px;
+    font-size: 5rem;
+    letter-spacing: 0.02em;
+}
+
+.cms_ly_section .top_title hr {
+    border: solid #000;
+    border-width: 1px 0 0 0;
+    width: 56px;
+    margin: 0 auto;
+}
+
+.cms_ly_section .top_title p {
+    line-height: 2.1;
+    padding: 40px 0 90px;
+}
+
+/* bl = block */
+#case .cms_bl_relatedPosts.cms_bl_relatedPosts__single div:last-child {
+    border: 0 !important;
+    padding: 0 !important;
+    float: none;
+    margin: 0 auto;
+}
+
+#news .cms_bl_newsContact {
+    float: left;
+    text-align: left;
+    padding: 0 50px;
+    border-left: 1px solid #CCC;
+    font: 500 13px/2.1 "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "Yu Gothic", YuGothic, "メイリオ", "Meiryo", sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+}
+
+#news .cms_bl_newsContact .cms_bl_newsContact_item {
+    display: block;
+}
+
+#news .cms_bl_newsContact .cms_bl_newsContact_item+.cms_bl_newsContact_item {
+    margin-top: 2.1em;
+}
+
+/* it = item */
+.cms_it_tag.cms_it_tag__iotSystemArchitect {
+    letter-spacing: -0.01em !important;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #wpadminbar {
+        position: fixed;
+    }
+
+    .cms-is-adminBarShowing #gheader>h1 {
+        top: 61px;
+    }
+
+    .cms-is-adminBarShowing #gheader .menu_btn {
+        top: 46px;
+    }
+
+    .cms-is-adminBarShowing #gheader nav {
+        top: 46px;
+    }
+
+    #news .entry_body ul,
+    #live .entry_body ul,
+    #news .entry_body ol,
+    #live .entry_body ol {
+        font-size: 11px;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    #news .entry_body hr,
+    #live .entry_body hr {
+        margin-bottom: 15px;
+    }
+
+    .cms_ly_pagePath {
+        display: none;
+    }
+
+    .cms_ly_section {
+        min-width: 320px;
+    }
+
+    .cms_ly_section .top_title h1 {
+        padding: 75px 0 20px;
+        font-size: 26px;
+        font-size: 2.6rem;
+        letter-spacing: 0.02em;
+    }
+
+    .cms_ly_section .top_title hr {
+        width: 28px;
+    }
+
+    .cms_ly_section .top_title p {
+        padding: 15px 15px 45px;
+        font-size: 11px;
+        font-size: 1.1rem;
+        line-height: 2.1;
+        letter-spacing: 0.04em !important;
+    }
+
+    #news .cms_bl_newsContact {
+        float: none;
+        box-sizing: border-box;
+        padding: 0 25px;
+        font-size: 12px;
+        font-size: 1.2rem;
+    }
+
+    #news .cms_bl_newsContact,
+    #news .cms_bl_newsContact .cms_bl_newsContact_item+.cms_bl_newsContact_item {
+        margin-top: 20px;
+    }
+
+}
